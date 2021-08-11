@@ -1,4 +1,4 @@
-### Qué es LLMNR?
+# Qué es LLMNR?
 
 - Se usa para identificat hosts cuando el DNS falla.
 - Antes se conocía como NBT-NS
