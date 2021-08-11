@@ -1,12 +1,12 @@
 # Qué es LLMNR?
 
 - Se usa para identificat hosts cuando el DNS falla.
-- Antes se conocía como NBT-NS
-- El servicio utiliza el 'username' de un usuario y un hash NTLMv2 cuando responde.
+- Antes se conocía como `NBT-NS`
+- El servicio utiliza el `username` de un usuario y un `Hash NTLMv2` cuando responde.
 
 # Explicación gráfica del vector de ataque
 
-<img src="https://i.imgur.com/QQokhLx.png" />
+[Click aqui para ver la imagen](Images/main/README.md)
 
 # Iniciando Ataque (Responder)
 
