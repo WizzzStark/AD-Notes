@@ -14,4 +14,4 @@
 python /usr/share/responder.py -I tun0 -rdw
 ```
 
-<img src="https://i.imgur.com/QQokhLx.png" />
+<img src="https://i.imgur.com/ZKyYZR6.png" />
