@@ -6,7 +6,7 @@
 
 # Explicación gráfica del vector de ataque
 
-[Click aqui para ver la imagen](Images/main/README.md)
+[Ver la imagen](Images/main/README.md)
 
 # Iniciando Ataque (Responder)
 
@@ -14,4 +14,5 @@
 python /usr/share/responder.py -I tun0 -rdw
 ```
 
-[Click aqui para ver el ataque en proceso](Images/Responder/README.md)
+[Ver el Responder en proceso](Images/Responder/README.md)
+[Ver la obtención de Hash NTMLv2](Images/Hash/README.md)
