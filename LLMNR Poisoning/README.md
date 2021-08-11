@@ -6,4 +6,4 @@
 
 # Explicación gráfica del vector de ataque
 
-<img src="https://i.imgur.com/ifdb7oO.png" />
+<img src="https://i.imgur.com/QQokhLx.png" />
