@@ -1,4 +1,4 @@
-# Qué es SMB Relay?
+# Qué es un SMB Relay?
 
 - En vez de crackear hashes obtenidos con el Repsonder, podemos pasar esos hashes a alguna máquina específica para ganar acceso.
 - Es necesario que el SMB no esté firmado para que no se de validado la legitimdad del origen.
