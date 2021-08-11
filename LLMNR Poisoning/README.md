@@ -2,7 +2,7 @@
 
 - Se usa para identificar hosts cuando el DNS falla.
 - Antes se conocía como `NBT-NS`
-- El servicio utiliza el `username` de un usuario y un `Hash NTLMv2` cuando responde.
+- El servicio devuelve el `username` de un usuario y un `Hash NTLMv2` cuando responde.
 
 # Explicación gráfica del vector de ataque
 
