@@ -30,4 +30,5 @@ crackmapexec smb <target> -u 'USUARIO' -p 'CONTRASEÑA'
 ```
 sudo nano /usr/share/responder/Responder.conf
 ```
+HTTP y SMB deben estar en Off en la configuración del Responder
 <img src="https://i.imgur.com/XypgqGB.png" />
