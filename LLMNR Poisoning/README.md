@@ -7,3 +7,11 @@
 # Explicación gráfica del vector de ataque
 
 <img src="https://i.imgur.com/QQokhLx.png" />
+
+***Iniciando Ataque***
+
+```
+python /usr/share/responder.py -I tun0 -rdw
+```
+
+<img src="https://i.imgur.com/QQokhLx.png" />
