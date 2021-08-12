@@ -7,6 +7,11 @@ rpcclient -U "<nombre_dominio>\<usuario>%<contraseña>" <IP_DC> '<enumdomusers>'
 ```
 [Ver ejemplo](Images/users/README.md)
 
+## Enumerar los usuarios del dominio con rpcclient mediante un Null Session
+```
+rpcclient -U '' <IP_DC> -N
+```
+
 ## Listar información de usuarios mediante el rid.
 Hay veces que enumerando los usuarios podremos encontrar información valiosa en sus descripciones
 ```
