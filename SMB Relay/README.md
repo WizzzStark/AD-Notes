@@ -12,7 +12,7 @@
 # Como ver si el smb está fimado
 
 ```
-crackmapexec smb <target>
+crackmapexec smb <segmento_red>
 ```
 
 [Ver Ejemplo](Images/firma/README.md)
