@@ -15,11 +15,13 @@ for rid in $(rpcclient -U "<nombre_dominio>\<usuario>%<contraseña>" <IP_DC> '<e
 [Ver ejemplo](Images/rid/README.md)
 
 ## Usar ldapdomaindump para representar la información en HTML
-Para hacer esto debemos conocer unas credenciales de usuario válidas, no hace falta que sean privilegiadas.
+Para hacer esto debemos conocer unas credenciales de usuario válidas, no hace falta que sean privilegiadas. Tendremos que habilitar el servicio apache2 y cuando accedamos a nuestro localhost veremos toda la información representada en la web.
 ```
 service apache2 start
 ```
 ```
 python3 ldapdomaindump.py -u '<nombre_dominio>\<usuario>' -p '<contraseña>' <IP_DC>
 ```
-[Ver ejemplo](Images/ldap/README.md)
+[Ver directory listing](Images/web/README.md)
+
+[Ver ejemplo](Images/web2/README.md)
