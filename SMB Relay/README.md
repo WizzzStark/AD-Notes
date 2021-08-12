@@ -3,6 +3,7 @@
 - En vez de crackear hashes obtenidos con el Repsonder, podemos pasar esos hashes a alguna máquina específica para ganar acceso.
 - Es necesario que el SMB no esté firmado para que no se de validado la legitimdad del origen.
 - Las credenciales que se le pasen a un equipo deben ser de un Administrador del mismo.
+- Algo a tener en cuenta es que el Windows defender no lo detecta por lo que se puede efectuar el ataque aunque esté activo.
 
 # Explicación gráfica del vector de ataque
 
