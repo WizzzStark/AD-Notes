@@ -25,3 +25,9 @@ python3 ldapdomaindump.py -u '<nombre_dominio>\<usuario>' -p '<contraseña>' <IP
 [Ver directory listing](Images/web/README.md)
 
 [Ver ejemplo](Images/web2/README.md)
+
+## Conectarnos al sistema como un usuario
+Siemore que tengamos unas credenciales válidas podemos intentar conectarnos con evil-winrm para ganar acceso.
+```
+evil-winrm -u '<usuario>' -p '<contraseña>' -i <DC_IP>
+```
