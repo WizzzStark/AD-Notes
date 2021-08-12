@@ -11,6 +11,10 @@ rpcclient -U "<nombre_dominio>\<usuario>%<contraseña>" <IP_DC> '<enumdomusers>'
 ```
 rpcclient -U '' <IP_DC> -N
 ```
+## Forma alternativa
+Se puede usar rpcenum para enumerar el dominio
+
+[Ir a la herramienta](https://github.com/s4vitar/rpcenum)
 
 ## Listar información de usuarios mediante el rid.
 Hay veces que enumerando los usuarios podremos encontrar información valiosa en sus descripciones
