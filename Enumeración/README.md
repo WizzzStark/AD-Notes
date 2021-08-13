@@ -5,6 +5,12 @@ Para hacer esto debemos conocer unas credenciales de usuario válidas, no hace f
 ```
 rpcclient -U "<nombre_dominio>\<usuario>%<contraseña>" <IP_DC> '<enumdomusers>'
 ```
+
+## Exportar todos los usuarios a un archivo
+```
+rpcclient -U "<nombre_dominio>\<usuario>%<contraseña>" <IP_DC> '<enumdomusers>' | grep -oP '\[.*?\]' | grep '0x' | tr -d '[]' > users
+```
+
 [Ver ejemplo](Images/users/README.md)
 
 ## Enumerar los usuarios del dominio con rpcclient mediante un Null Session
