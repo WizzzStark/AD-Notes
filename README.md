@@ -28,3 +28,4 @@ Recopilación de técnicas de explotación de AD
   - [Peresistencia en el dominio](/Apuntes-AD/Domain-persistence)
     - [Golden Ticket Atack](/Apuntes-AD/Domain-persistence/Golden-ticket-atack)
     - [Dumpear Credenciales con mimikatz](/Apuntes-AD/Domain-persistence/Dumpear-mimikatz)
+  - [Recomendaciones Post Exploitation](/Apuntes-AD/Domain-persistence/Post-exploitation)
