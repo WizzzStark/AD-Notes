@@ -23,4 +23,5 @@ Recopilación de técnicas de explotación de AD
        - [SMB Relay por IPv4](/Apuntes-AD/Domain-privesc/SMB-Relay/#Efectuar-un-SMB-Relay-por-IPv4)
        - [SMB Relay por IPv6 (mitm6)](/Apuntes-AD/Domain-privesc/SMB-Relay/#Ejecutar-comandos-mediante-un-SMB-Relay-por-IPv6)
     - [.scf malicioso](/Apuntes-AD/Domain-privesc/scf-malicioso)
+    - [Password Spraying](/Apuntes-AD/Domain-privesc/Password-spraying)
     - [Formas de autenticarse](/Apuntes-AD/Autenticaciones)
