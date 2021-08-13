@@ -13,4 +13,4 @@ Ahora debemos generar un .zip con toda la información necesaria, para ello usar
 ```
 Invoke-BloodHound.ps1 -CollectionMethod All
 ```
-Posteriormente nos descargamos el .zip que nos genera y subirlo a BloodHound.
+Posteriormente nos descargamos el .zip que nos genera y lo a BloodHound para ver toda la información de forma interactiva.
