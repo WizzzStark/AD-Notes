@@ -40,3 +40,28 @@ Get-DomainGroup | Out-File -FilePath .\groups.txt
 Get-DomainGroup -Identity '<nombre_grupo>' | Select-Object -ExpandProperty Member 
 Get-DomainGroupMember -Identity '<nombre_grupo>' | Select-Object MemberDistinguishedName
 ```
+## Recursos compartidos
+```
+#Enumaración
+Find-DomainShare
+
+#Enumerate recursos del usuario actual
+Find-DomainShare -CheckShareAccess
+
+#Enumerar elementos interesantes a los que podemos acceder
+Find-InterestingDomainShareFile -Include *passwords*
+```
+## Enumerar OUs
+```
+Get-DomainOU -Properties Name | Sort-Object -Property Name
+```
+## Enumerar ACLs
+```
+#Devolver ACLs de una cuenta
+Get-DomaiObjectAcl -Identity <nombre_cuenta> -ResolveGUIDs
+```
+## Enumerar Trust del dominio
+```
+Get-DomainTrust
+Get-DomainTrust -Domain <nombre_dominio>
+```
