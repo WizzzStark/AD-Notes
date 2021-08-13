@@ -16,6 +16,6 @@ Ejemplo:
 # Efectuar ataque con GetNPUsers
 Este ataque no suele resultar efectivo ya que en el AD el preauth viene activado de forma automática, pero si por algún casual alguna empresa tiene mal configurado su entorno pues chinpum y pa dentro con la misma.
 ```
-GetNPUsers.py <dominio>/ -no-pass -userfile <lista_usuarios>
+GetNPUsers.py <dominio>/ -no-pass -usersfile <lista_usuarios>
 ```
 [Ver ejemplo](/Apuntes-AD/Images/1.md)
