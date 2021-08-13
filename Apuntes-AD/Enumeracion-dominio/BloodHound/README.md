@@ -9,7 +9,7 @@ neo4j console
 #Iniciar Bloodhound y iniciar sesión
 bloodhound &>/dev/null &
 ```
-# Ahora debemos generar un .zip con toda la información necesaria, para ello usaremos [SharpHound.ps1](https://github.com/BloodHoundAD/BloodHound/blob/master/Collectors/SharpHound.ps1), deberemos subir el recurso a la máquina víctima y ejecutar el siguiente comando
+Ahora debemos generar un .zip con toda la información necesaria, para ello usaremos [SharpHound.ps1](https://github.com/BloodHoundAD/BloodHound/blob/master/Collectors/SharpHound.ps1), deberemos subir el recurso a la máquina víctima y ejecutar el siguiente comando
 ```
 Invoke-BloodHound.ps1 -CollectionMethod All
 ```
