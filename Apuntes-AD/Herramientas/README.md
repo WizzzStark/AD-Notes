@@ -8,3 +8,4 @@
 - [ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump)
 - [Rubeus](https://github.com/GhostPack/Rubeus)
 - [Kerbrute](https://github.com/ropnop/kerbrute)
+- [PRET](https://github.com/RUB-NDS/PRET)
