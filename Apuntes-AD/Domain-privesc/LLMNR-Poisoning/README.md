@@ -6,7 +6,7 @@
 
 # Explicación gráfica del vector de ataque
 
-[Ver la imagen](Images/main/README.md)
+[Ver la imagen](/Apuntes-AD/Images/6.md)
 
 # Iniciando Ataque (Responder)
 En el momento en el que un usario acceda a un recurso que no existe, solicitaremos que se conecte a nosotros y obtendremos su Hash NTMLv2.
@@ -15,9 +15,9 @@ En el momento en el que un usario acceda a un recurso que no existe, solicitarem
 python /usr/share/responder.py -I tun0 -rdw
 ```
 
-[Ver el Responder en proceso](Images/Responder/README.md)
+[Ver el Responder en proceso](/Apuntes-AD/Images/5.md)
 
-[Ver la obtención de Hash NTMLv2](Images/Hash/README.md)
+[Ver la obtención de Hash NTMLv2](/Apuntes-AD/Images/4.md)
 
 # Romper el Hash (JohnTheRipper)
 
