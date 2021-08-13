@@ -11,7 +11,7 @@ Recopilación de técnicas de explotación de AD
 
 - [Técnicas de explotación de AD](#Técnicas-de-Explotación-de-AD)
   - [Información](#Información)
-  - [Herramientas](#Herramientas)
+  - [Herramientas](/Apuntes-AD/Herramientas)
   - [Enumeración del dominio](/Apuntes-AD/Enumeracion-dominio)
     - [Usando BloodHound](/Apuntes-AD/Enumeracion-dominio/BloodHound)
     - [Usando PowerView](/Apuntes-AD/Enumeracion-dominio/PowerView)
