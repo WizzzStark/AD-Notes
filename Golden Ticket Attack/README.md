@@ -1,4 +1,5 @@
 # Que es un Golden Tiket Attack?
+El objetivo del ataque del Golden Ticket es construir un `TGT`, para lo cual se necesita el hash de la cuenta `krbtgt`, ya que es el que se usa para cifrar dicho ticket. Una vez obtenido este hash es posible construir un TGT con la caducidad que se desee y con los permisos que uno quiera, consiguiendo incluso privilegio de administrador de dominio. Una vez se cree el ticket, podremos acceder al DC cuando queramos aunque se cambie la contraseña del mismo.
 
 # Efectuar Golden Ticket Attack
 Para comenzar debemos subir el `mimikatz` al DC, podemos hacer por con `upload` en una sesión de evil-winrm o con:
