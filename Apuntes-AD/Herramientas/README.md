@@ -1,1 +1,10 @@
-test
+# Listado de herramientas útiles a tener en cuenta
+- [Repositorio de Nishang](https://github.com/samratashok/nishang)
+- [Rpcenum](https://github.com/s4vitar/rpcenum)
+- [Evil-winrm](https://github.com/Hackplayers/evil-winrm)
+- [Bloodhound](https://github.com/BloodHoundAD/BloodHound)
+- [PowerView](https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon)
+- [Mimikatz](https://github.com/gentilkiwi/mimikatz)
+- [ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump)
+- [Rubeus](https://github.com/GhostPack/Rubeus)
+- [Kerbrute](https://github.com/ropnop/kerbrute)
