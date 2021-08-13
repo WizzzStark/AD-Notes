@@ -1,4 +1,4 @@
-# Apuntes de Active Directory
+# Técnicas de explotación de AD
 Recopilación de técnicas de explotación de AD
 
 ## Información
@@ -6,3 +6,12 @@ Recopilación de técnicas de explotación de AD
 - Se almacena información relacionada con objetos como ordenadores, usuarios, etc..
 - `Autentificación` mediante tickets de `Kerberos`. 
 - Otros dispositivos que no son Windows también se pueden autenticar al AD con `RADIUS` o `LDAP`.
+
+- [Técnicas de explotación de AD](#Técnicas-de-Explotación-de-AD)
+  - [Información](#Información)
+  - [Herramientas](#Herramientas)
+  - [Enumración del dominio](#Enumeración-del-dominio)
+    - [Using PowerView](#Usando-PowerView)
+    - [Using BloodHound](#Usando-BloodHound)
+  - [Escalada de Privilegios Local](#Escalada-de-Privilegios-Local)
+  - [Escalada de Privilegios del dominio](/Apuntes-AD/Domain-privesc/#Escalada-de-Privilegios-del-dominio)
