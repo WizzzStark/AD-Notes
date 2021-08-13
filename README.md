@@ -25,3 +25,5 @@ Recopilación de técnicas de explotación de AD
     - [.scf malicioso](/Apuntes-AD/Domain-privesc/scf-malicioso)
     - [Password Spraying](/Apuntes-AD/Domain-privesc/Password-spraying)
     - [Formas de autenticarse](/Apuntes-AD/Autenticaciones)
+  - [Peresistencia de dominio](/Apuntes-AD/Domain-persistence)
+    - [Golden Ticket Atack](/Apuntes-AD/Domain-persistence/Golden-ticket-atack)
