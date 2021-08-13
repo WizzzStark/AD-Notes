@@ -18,4 +18,4 @@ Este ataque no suele resultar efectivo ya que en el AD el preauth viene activado
 ```
 GetNPUsers.py <dominio>/ -no-pass -userfile <lista_usuarios>
 ```
-[Ver ejemplo](Images/users/1.md)
+[Ver ejemplo](/Apuntes-AD/Images/1.md)
