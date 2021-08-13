@@ -6,7 +6,7 @@ Este ataque nos permite dumpear el hash de los usuarios que sean vulnerables.
 ```
 python GetUsersSPNs.py <DOMINIO>/<usuario>:<contraseña> -dc-ip <ip_DC> -request
 ```
-[Ver ejemplo](Images/kerber/README.md)
+[Ver ejemplo](Images/users/README.md)
 
 # Exportar hashes
 En el caso de obtener un hash se pueden exportar directamente a un archivo con el parametro `-output <file>`
