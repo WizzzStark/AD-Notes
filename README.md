@@ -6,7 +6,8 @@ Recopilación de técnicas de explotación de AD
 - Se almacena información relacionada con objetos como ordenadores, usuarios, etc..
 - `Autentificación` mediante tickets de `Kerberos`. 
 - Otros dispositivos que no son Windows también se pueden autenticar al AD con `RADIUS` o `LDAP`.
-![JustWalking](JustWalking.png)
+
+![JustWalking](https://github.com/WizzzStark/AD-Notes/blob/main/JustWalking.jpg)
 
 - [Técnicas de explotación de AD](#Técnicas-de-Explotación-de-AD)
   - [Información](#Información)
