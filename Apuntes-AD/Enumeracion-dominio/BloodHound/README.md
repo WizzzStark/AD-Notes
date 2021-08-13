@@ -11,6 +11,7 @@ bloodhound &>/dev/null &
 ```
 Ahora debemos generar un .zip con toda la información necesaria, para ello usaremos [SharpHound.ps1](https://github.com/BloodHoundAD/BloodHound/blob/master/Collectors/SharpHound.ps1), deberemos subir el recurso a la máquina víctima y ejecutar el siguiente comando
 ```
+Import-Module .\SharpHound.ps1
 Invoke-BloodHound.ps1 -CollectionMethod All
 ```
 Posteriormente nos descargamos el .zip que nos genera y lo subimos a BloodHound para ver toda la información de forma interactiva.
