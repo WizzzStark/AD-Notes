@@ -13,6 +13,7 @@ Recopilación de técnicas de explotación de AD
   - [Enumración del dominio](#Enumeración-del-dominio)
     - [Usando PowerView](#Usando-PowerView)
     - [Usando BloodHound](#Usando-BloodHound)
+    - [Formas útiles de enumeración](/Apuntes-AD/Enumeración)
   - [Escalada de Privilegios Local](#Escalada-de-Privilegios-Local)
   - [Escalada de Privilegios del dominio](/Apuntes-AD/Domain-privesc/#Escalada-de-Privilegios-del-dominio)
     - [AS-REP Roasting](/Apuntes-AD/Domain-privesc/AS-REP-Roasting)
