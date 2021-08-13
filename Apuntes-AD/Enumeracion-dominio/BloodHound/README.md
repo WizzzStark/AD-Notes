@@ -1,5 +1,5 @@
 # Que es Bloodhound?
-Es una herramienta que nos moestrará toda la información del dominio y vías potenciales para convertirnos en administrador del mismo de la forma mas corta posible mediante un sistema de nodos.
+Es una herramienta que nos mostrará toda la información del dominio y vías potenciales para convertirnos en administrador del mismo de la forma mas corta posible mediante un sistema de nodos.
 
 # Iniciar Bloodhound
 ```
